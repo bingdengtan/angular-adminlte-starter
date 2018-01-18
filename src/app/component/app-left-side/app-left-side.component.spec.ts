@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StarterHeaderComponent } from './starter-header.component';
+import { AppLeftSideComponent } from './app-left-side.component';
 
-describe('StarterHeaderComponent', () => {
-  let component: StarterHeaderComponent;
-  let fixture: ComponentFixture<StarterHeaderComponent>;
+describe('AppLeftSideComponent', () => {
+  let component: AppLeftSideComponent;
+  let fixture: ComponentFixture<AppLeftSideComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ StarterHeaderComponent ]
+      declarations: [ AppLeftSideComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(StarterHeaderComponent);
+    fixture = TestBed.createComponent(AppLeftSideComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

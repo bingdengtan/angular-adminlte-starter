@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { StarterLeftSideComponent } from './starter-left-side.component';
+import { AppControlSidebarComponent } from './app-control-sidebar.component';
 
-describe('StarterLeftSideComponent', () => {
-  let component: StarterLeftSideComponent;
-  let fixture: ComponentFixture<StarterLeftSideComponent>;
+describe('AppControlSidebarComponent', () => {
+  let component: AppControlSidebarComponent;
+  let fixture: ComponentFixture<AppControlSidebarComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ StarterLeftSideComponent ]
+      declarations: [ AppControlSidebarComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(StarterLeftSideComponent);
+    fixture = TestBed.createComponent(AppControlSidebarComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

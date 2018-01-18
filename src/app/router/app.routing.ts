@@ -1,16 +1,17 @@
-import { StarterComponent } from './../starter/starter.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { RouterModule } from '@angular/router';
+import { RouterModule, Routes } from '@angular/router';
+
+import { HomeComponent } from './../pages/home/home.component';
 
 @NgModule({
   imports: [
     RouterModule.forRoot([
-      { path: '', redirectTo: 'starter', pathMatch: 'full' },
-      { path: 'starter', component: StarterComponent },
+      { path: '', redirectTo: 'home', pathMatch: 'full' },
+      { path: 'home', component: HomeComponent },
     ])
   ],
   declarations: [],
-  exports: [ RouterModule]
+  exports: [RouterModule]
 })
 export class AppRoutingModule { }

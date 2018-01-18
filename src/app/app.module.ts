@@ -4,23 +4,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './router/app.routing';
 import { AppComponent } from './app.component';
-import { StarterComponent } from './starter/starter.component';
-import { StarterContentComponent } from './starter/starter-content/starter-content.component';
-import { StarterFooterComponent } from './starter/starter-footer/starter-footer.component';
-import { StarterHeaderComponent } from './starter/starter-header/starter-header.component';
-import { StarterLeftSideComponent } from './starter/starter-left-side/starter-left-side.component';
-import { StarterControlSidebarComponent } from './starter/starter-control-sidebar/starter-control-sidebar.component';
+import { HomeComponent } from './pages/home/home.component';
+import { AppHeaderComponent } from './component/app-header/app-header.component';
+import { AppFooterComponent } from './component/app-footer/app-footer.component';
+import { AppLeftSideComponent } from './component/app-left-side/app-left-side.component';
+import { AppControlSidebarComponent } from './component/app-control-sidebar/app-control-sidebar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    StarterComponent,
-    StarterContentComponent,
-    StarterFooterComponent,
-    StarterHeaderComponent,
-    StarterLeftSideComponent,
-    StarterControlSidebarComponent
+    HomeComponent,
+    AppHeaderComponent,
+    AppFooterComponent,
+    AppLeftSideComponent,
+    AppControlSidebarComponent
   ],
   imports: [
     BrowserModule,
